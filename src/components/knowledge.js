@@ -21,7 +21,7 @@ function KnowledgeComponent(props) {
                     </div>
                     <div className= "mainContent">
                         <div className= "imgContent">
-                            <img src= "assets/pancake.png" className= "imgDes"></img>
+                            <img alt= "description" src= "assets/pancake.png" className= "imgDes"></img>
                         </div>
                         <div className= "mainContentPart">
                         <p id="0255">So what if you can buy large amount of coin and sell in 1 second? Profitable enough? Here are some posts about the attacks against BSC.</p>
