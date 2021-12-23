@@ -8,7 +8,7 @@ function HeaderComponent(props) {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light header">
-                <img alt= "logo" src= "assets/logo.png" style= {{width: '50px'}}></img>
+                <img alt= "flashloan logo" src= "assets/logo.png" style= {{width: '50px'}}></img>
                 <Link className="navbar-brand" to="/"><h2>FlashLoan</h2></Link>
 
                 <div className="navbar-collapse" id="navbarSupportedContent">

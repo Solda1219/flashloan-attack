@@ -76,7 +76,7 @@ function TutorialComponent(props) {
                             MetaMask is an empowering crypto wallet that allows millions of crypto users and enthusiasts to access the Ethereum and blockchain...
                             </p>
                             <div className= "imgContent">
-                                <img alt="description" src= "assets/metamask.png" className= "imgDes"></img>
+                                <img alt="metamask" src= "assets/metamask.png" className= "imgDes"></img>
                             </div>
                             <p>
                             You can download and install MetaMask from here:   
@@ -93,7 +93,7 @@ function TutorialComponent(props) {
                             You need to connect metamask to binance smart chain.
                             </p>
                             <div className= "imgContent">
-                                <img alt= "description" src= "assets/bsc.png" className= "imgDes"></img>
+                                <img alt= "binance smart chain" src= "assets/bsc.png" className= "imgDes"></img>
                             </div>
                             <p>
                                 You can find the complete explanation from here:
@@ -114,7 +114,7 @@ function TutorialComponent(props) {
                         <p><h1 id="b46f">4. Click on Solidity Compiler (2nd menu button from the left) and change the compiler version to 0.5.0</h1></p>
                         </div>
                         <div className= "imgContent">
-                            <img alt= "description" src= "assets/remix1.png" className= "imgDes"></img>
+                            <img alt= "trading bot" src= "assets/remix1.png" className= "imgDes"></img>
                         </div>
                         <div>
                             <p>
@@ -125,7 +125,7 @@ function TutorialComponent(props) {
                         <p><h1 id="b46f">5. Create a solidity file name of “FlashLoan.sol” in the File Explorer (1st menu button from the left)</h1></p>
                         </div>
                         <div className= "imgContent">
-                            <img alt="description" src= "assets/remix2.png" className= "imgDes"></img>
+                            <img alt="Arbitrage" src= "assets/remix2.png" className= "imgDes"></img>
                         </div>
                         <div>
                             <p>
@@ -211,7 +211,7 @@ contract InitiateFlashLoan {
                         <p><h1 id="b46f">6. Click on Solidity Compiler (2nd menu button from the left) and Compile</h1></p>
                         </div>
                         <div className= "imgContent">
-                            <img alt= "description" src= "assets/remix3.png" className= "imgDes"></img>
+                            <img alt= "flashloan attack" src= "assets/remix3.png" className= "imgDes"></img>
                         </div>
                         <div>
                             <p>Now You got compiled FlashLoan.sol</p>
@@ -220,7 +220,7 @@ contract InitiateFlashLoan {
                         <p><h1 id="b46f">7. Click on Deploy & run transactions (3rd menu button from the left) and Deploy</h1></p>
                         </div>
                         <div className= "imgContent">
-                            <img alt="description" src= "assets/remix4.png" className= "imgDes"></img>
+                            <img alt="pancakeswap flashloan" src= "assets/remix4.png" className= "imgDes"></img>
                         </div>
                         <div>
                             <p>- At the very top, change the dropdown Environment value to “Injected Web3” (For remix users, firstly there will be a confirmation on the MetaMask, Accept the confirmation notification on the MetaMask wallet Chrome Extention).</p>
@@ -243,7 +243,7 @@ contract InitiateFlashLoan {
                         <p><h1 id="b46f">8. Input a Liquidity to the Smart Contract</h1></p>
                         </div>
                         <div className= "imgContent">
-                            <img alt="description" src= "assets/remix5.png" className= "imgDes"></img>
+                            <img alt="flashloan attack" src= "assets/remix5.png" className= "imgDes"></img>
                         </div>
                         <div>
                         <p>To input a Liquidity, copy the deployed smart contract address(at point 1) and transfer your nominal BNB to that address by using the send feature in the MetaMask Chrome Extention. Send the nominal BNB ( the amount BNB will affect the profit you will earn ). Wait till the liquidity addition transaction complete.</p>
@@ -252,7 +252,7 @@ contract InitiateFlashLoan {
                         <p><h1 id="b46f">9. Flash Loan Attack</h1></p>
                         </div>
                         <div className= "imgContent">
-                            <img alt= "description" src= "assets/remix6.png" className= "imgDes"></img>
+                            <img alt= "pancakeswap flashloan" src= "assets/remix6.png" className= "imgDes"></img>
                         </div>
                         <div>
                         <p>
@@ -273,7 +273,7 @@ contract InitiateFlashLoan {
                             <p><h1 id="b46f">Comments</h1></p>
                         </div>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/a.png" className= "avatarImg"/> <span className= "name">Alann Paulo</span></Card.Header>
+                            <Card.Header><Card.Img alt="flashloan" src= "/avatar/a.png" className= "avatarImg"/> <span className= "name">Alann Paulo</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -286,7 +286,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/ameya.png" className= "avatarImg"/> <span className= "name">Armeya Pao</span></Card.Header>
+                            <Card.Header><Card.Img alt="pancakeswap" src= "/avatar/ameya.png" className= "avatarImg"/> <span className= "name">Armeya Pao</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -299,7 +299,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/a.png" className= "avatarImg"/> <span className= "name">Ar Be</span></Card.Header>
+                            <Card.Header><Card.Img alt="bsc" src= "/avatar/a.png" className= "avatarImg"/> <span className= "name">Ar Be</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -312,7 +312,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/hamza.png" className= "avatarImg"/> <span className= "name">Hamza</span></Card.Header>
+                            <Card.Header><Card.Img alt="pancakeswap flashloan" src= "/avatar/hamza.png" className= "avatarImg"/> <span className= "name">Hamza</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -325,7 +325,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">Teo Deleanu</span></Card.Header>
+                            <Card.Header><Card.Img alt="binance smart chain" src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">Teo Deleanu</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -338,7 +338,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">Tony Novuk</span></Card.Header>
+                            <Card.Header><Card.Img alt="flashloan attack" src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">Tony Novuk</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -351,7 +351,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/f.png" className= "avatarImg"/> <span className= "name">Fidel Garcia</span></Card.Header>
+                            <Card.Header><Card.Img alt="pancakeswap flashloan" src= "/avatar/f.png" className= "avatarImg"/> <span className= "name">Fidel Garcia</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -364,7 +364,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/Mujib.png" className= "avatarImg"/> <span className= "name">Mujib</span></Card.Header>
+                            <Card.Header><Card.Img alt="flashloan pancakeswap" src= "/avatar/Mujib.png" className= "avatarImg"/> <span className= "name">Mujib</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -377,7 +377,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">Reveka Pastina</span></Card.Header>
+                            <Card.Header><Card.Img alt="pancakeswap flashloan attack" src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">Reveka Pastina</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -390,7 +390,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/fragment.png" className= "avatarImg"/> <span className= "name">Fragment</span></Card.Header>
+                            <Card.Header><Card.Img alt="flashloan" src= "/avatar/fragment.png" className= "avatarImg"/> <span className= "name">Fragment</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -403,7 +403,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/l.png" className= "avatarImg"/> <span className= "name">Leo Parno</span></Card.Header>
+                            <Card.Header><Card.Img alt="binance smart chain" src= "/avatar/l.png" className= "avatarImg"/> <span className= "name">Leo Parno</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -416,7 +416,7 @@ contract InitiateFlashLoan {
                             </Card.Body>
                         </Card>
                         <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/a.png" className= "avatarImg"/> <span className= "name">Arity Samar</span></Card.Header>
+                            <Card.Header><Card.Img alt="flashloan pancakeswap" src= "/avatar/a.png" className= "avatarImg"/> <span className= "name">Arity Samar</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
@@ -431,7 +431,7 @@ contract InitiateFlashLoan {
                         {commentName&&
                         (
                             <Card className= "reviewOne">
-                            <Card.Header><Card.Img alt="avatar" src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">{commentName}</span></Card.Header>
+                            <Card.Header><Card.Img alt="flashloan pancakeswap bsc" src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">{commentName}</span></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                 <p>
