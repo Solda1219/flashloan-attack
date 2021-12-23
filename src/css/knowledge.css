@@ -1,0 +1,35 @@
+.knowledgeBody {
+    margin-left:15%;
+    margin-right: 15%;
+    margin-top: 80px;
+}
+.mainContent{
+    margin-top: 50px;
+}
+p{
+    margin-top:20px;
+    font-size: 21px;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.mainContentPart{
+    margin-top: 30px;
+    
+}
+
+.quote{
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+.subTitle{
+    margin-top: 50px!important;
+}
+.mainContent div{
+    margin-top: 20px;
+}
+.end{
+    margin-bottom: 100px;
+}
+.imgDes{
+    width: 100%
+}

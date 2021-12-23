@@ -1,0 +1,8 @@
+.header{
+    border-bottom: 1px solid rgb(230 230 230)!important;
+    height: 100px;
+}
+
+.header-menu{
+    font-weight: 600;
+}
