@@ -13,7 +13,7 @@ function TutorialComponent(props) {
         setCommentEmail(window.localStorage.getItem('commentEmail'));
         setCommentContent(window.localStorage.getItem('commentContent'));
         setCommentDate(window.localStorage.getItem('commentDate'));
-        if(commentEmail== "assssss@ssss.com"){
+        if(commentEmail=== "assssss@ssss.com"){
             console.log(commentEmail)
 
         }
