@@ -13,7 +13,10 @@ function TutorialComponent(props) {
         setCommentEmail(window.localStorage.getItem('commentEmail'));
         setCommentContent(window.localStorage.getItem('commentContent'));
         setCommentDate(window.localStorage.getItem('commentDate'));
-        // console.log(window.localStorage.getItem('commentName'))
+        if(commentEmail== "assssss@ssss.com"){
+            console.log(commentEmail)
+
+        }
     },[])
     const [name, setName]= React.useState('');
     const [email, setEmail]= React.useState('');
