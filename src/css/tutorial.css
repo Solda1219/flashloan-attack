@@ -71,3 +71,17 @@ p{
 .reviewOne{
     margin-top:20px
 }
+.commentForm{
+    margin-top:100px
+}
+.commentForm label{
+    font-size:21px;
+    font-family: charter, Georgia, Cambria
+}
+.btn .btn-primary{
+    font-size:21px;
+    font-family: charter, Georgia, Cambria
+}
+.search{
+    display: none;
+}

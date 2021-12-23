@@ -8,10 +8,15 @@ function KnowledgeComponent(props) {
     return (
         <>
             <div className= "container">
+                <h1 className= "search">Flash loan</h1>
+                <h2 className= "search">Pancakeswap</h2>
+                <h3 className= "search">Arbitrage</h3>
+                <h4 className= "search">Snipe bot</h4>
+                <h1 className= "search">Binance Smart Chain</h1>
                 <div className= "knowledgeBody">
                     <div className= "title">
                         <h1 data-selectable-paragraph="">
-                        <strong class="ce">Get to know about the concept of "Pancakeswap Flash Loan Attack"</strong>
+                        <strong className="ce">Get to know about the concept of "Pancakeswap Flash Loan Attack"</strong>
                         </h1>
                     </div>
                     <div className= "mainContent">
@@ -23,7 +28,7 @@ function KnowledgeComponent(props) {
                         </div>
                         <div className= "quote">
                             <p>
-                            In May 2021, we witnessed multiple hacks targeting BSC DeFi products. In particular, a loophole related to reward minting in the yield aggregator, PancakeBunny, was exploited to mint ~7M BUNNY tokens from nothing, leading to a $45M financial loss. After the hack, three forked projects — AutoShark, Merlin Labs, and PancakeHunny — were exploited using similar techniques. Below we dig into loophole and give a step-by-step account of the exploit by <strong class="hj if"> reproducing the attack</strong> against PancakeBunny.
+                            In May 2021, we witnessed multiple hacks targeting BSC DeFi products. In particular, a loophole related to reward minting in the yield aggregator, PancakeBunny, was exploited to mint ~7M BUNNY tokens from nothing, leading to a $45M financial loss. After the hack, three forked projects — AutoShark, Merlin Labs, and PancakeHunny — were exploited using similar techniques. Below we dig into loophole and give a step-by-step account of the exploit by <strong className="hj if"> reproducing the attack</strong> against PancakeBunny.
                             </p>
                         </div>
                         <div>

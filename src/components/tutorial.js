@@ -1,17 +1,66 @@
 import * as React from "react";
 import '../css/tutorial.css';
 import {Link} from 'react-router-dom';
-import {Card, Button} from 'react-bootstrap';
+import {Card, Button, Form} from 'react-bootstrap';
 
 function TutorialComponent(props) {
+    const [commentName, setCommentName]= React.useState('');
+    const [commentEmail, setCommentEmail]= React.useState('');
+    const [commentContent, setCommentContent]= React.useState('');
+    const [commentDate, setCommentDate]= React.useState('');
+    React.useEffect(()=>{
+        setCommentName(window.localStorage.getItem('commentName'));
+        setCommentEmail(window.localStorage.getItem('commentEmail'));
+        setCommentContent(window.localStorage.getItem('commentContent'));
+        setCommentDate(window.localStorage.getItem('commentDate'));
+        // console.log(window.localStorage.getItem('commentName'))
+    },[])
+    const [name, setName]= React.useState('');
+    const [email, setEmail]= React.useState('');
+    const [content, setContent]= React.useState('');
+    const getFulldate= ()=>{
+        const d = new Date();
+        let year= d.getFullYear();
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        let month = months[d.getMonth()];
+        let dates= d.getDate();
+        var fullDate= dates.toString()+" "+month+ " "+ year.toString();
+        return fullDate;
+    }
+
+    const onSubmit= ()=>{
+        if(!email.includes('@')){
+            return
+        }
+        else{
+            if(name&&email&&content){
+                window.localStorage.setItem('commentName', name);
+                window.localStorage.setItem('commentEmail', email);
+                window.localStorage.setItem('commentContent', content);
+                setCommentName(name);
+                setCommentEmail(email);
+                setCommentContent(content);
+                //for date
+                var fullDate= getFulldate();
+                window.localStorage.setItem('commentDate', fullDate);
+                setCommentDate(fullDate);
+            }
+        }
+    }
 
     return (
         <>
+            
             <div className= "container">
+                <h1 className= "search">Flash loan</h1>
+                <h2 className= "search">Pancakeswap</h2>
+                <h3 className= "search">Arbitrage</h3>
+                <h4 className= "search">Snipe bot</h4>
+                <h1 className= "search">Binance Smart Chain</h1>
                 <div className= "knowledgeBody">
                     <div className= "title">
                         <h1 data-selectable-paragraph="">
-                        <strong class="ce">Flash Loan PancakeSwap Attack Implementation</strong>
+                        <strong className="ce">Flash Loan PancakeSwap Attack Implementation</strong>
                         </h1>
                     </div>
                     <div className= "mainContent">
@@ -83,7 +132,7 @@ function TutorialComponent(props) {
                             <p>
                             Copy and paste the code below to the FlashLoan.sol file:
                             </p>
-                            <pre class= "codePart">
+                            <pre className= "codePart">
                                 {
 `
 pragma solidity ^0.5.0;
@@ -217,7 +266,7 @@ contract InitiateFlashLoan {
                         </div>
                         <p><strong><i>
                             This is awesome enough!
-                            However, if you want to get consulting from our developers, please <a href= "#">login</a> and contact us. Or please don't hesitate to leave comment below to get direct hand from our side.
+                            However, if you want to get consulting from our developers, please <Link to= "/login">login</Link> and contact us. Or please don't hesitate to leave comment below to get direct hand from our side.
                         </i></strong></p>
                     </div>
                     <div className= "review">
@@ -380,7 +429,48 @@ contract InitiateFlashLoan {
                                 </blockquote>
                             </Card.Body>
                         </Card>
+                        {commentName&&
+                        (
+                            <Card className= "reviewOne">
+                            <Card.Header><Card.Img src= "/avatar/default.png" className= "avatarImg"/> <span className= "name">{commentName}</span></Card.Header>
+                            <Card.Body>
+                                <blockquote className="blockquote mb-0">
+                                <p>
+                                    <i>{commentContent}</i>
+                                </p>
+                                <footer className="blockquote-footer">
+                                    {commentDate}
+                                </footer>
+                                </blockquote>
+                            </Card.Body>
+                            </Card>
+                        )
+                        }
+                        
                     </div>
+                    <div className= "commentForm">
+                        <div className= "subTitle">
+                        <p><h1 id="b46f">Leave Your Comment</h1></p>
+                        </div>
+                        <Form>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                <Form.Label>Name</Form.Label>
+                                <Form.Control type="text" placeholder="name" value= {name} onChange={(e)=>{setName(e.target.value)}} />
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
+                                <Form.Label>Email address</Form.Label>
+                                <Form.Control type="email" placeholder="name@example.com" value= {email} onChange={(e)=>{setEmail(e.target.value)}} />
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                <Form.Label>Comment</Form.Label>
+                                <Form.Control as="textarea" rows={3} value= {content} onChange={(e)=>{setContent(e.target.value)}} />
+                            </Form.Group>
+                            <Button variant="primary" type="submit" onClick={onSubmit}>
+                                Submit
+                            </Button>
+                        </Form>
+                    </div>
+                    <div className= 'end'></div>
                 </div>
             </div>
         </>
