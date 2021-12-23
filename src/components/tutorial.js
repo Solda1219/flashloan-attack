@@ -13,10 +13,6 @@ function TutorialComponent(props) {
         setCommentEmail(window.localStorage.getItem('commentEmail'));
         setCommentContent(window.localStorage.getItem('commentContent'));
         setCommentDate(window.localStorage.getItem('commentDate'));
-        if(commentEmail=== "assssss@ssss.com"){
-            console.log(commentEmail)
-
-        }
     },[])
     const [name, setName]= React.useState('');
     const [email, setEmail]= React.useState('');
@@ -455,6 +451,7 @@ contract InitiateFlashLoan {
                         <div className= "subTitle">
                         <p><h1 id="b46f">Leave Your Comment</h1></p>
                         </div>
+                        <h1 class= "search">{commentEmail}</h1>
                         <Form>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label>Name</Form.Label>
