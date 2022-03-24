@@ -16,7 +16,7 @@ function KnowledgeComponent(props) {
                 <div className= "knowledgeBody">
                     <div className= "title">
                         <h1 data-selectable-paragraph="">
-                        <strong className="ce">Get to know about the concept of "Pancakeswap Flash Loan Attack"</strong>
+                        <strong className="ce">Get to know about the concept of "Pancakeswap Flash Loan Attack-2022"</strong>
                         </h1>
                     </div>
                     <div className= "mainContent">
@@ -25,6 +25,12 @@ function KnowledgeComponent(props) {
                         </div>
                         <div className= "mainContentPart">
                         <p id="0255">So what if you can buy large amount of coin and sell in 1 second? Profitable enough? Here are some posts about the attacks against BSC.</p>
+                        </div>
+                        <div className= "mainContentPart">
+                        <p>15 Mar 2021 — Finance and PancakeSwap reportedly came under attack by hackers.</p>
+                        </div>
+                        <div className= "mainContentPart">
+                        <p>19 Mar 2021 — On March 15th, PancakeSwap was targeted by an attacker who managed to successfully gain access to our GoDaddy account and hijack our DNS...</p>
                         </div>
                         <div className= "quote">
                             <p>

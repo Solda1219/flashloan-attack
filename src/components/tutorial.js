@@ -280,7 +280,7 @@ contract InitiateFlashLoan {
                                     <i>I couldn't compile this solidity file because of error. Some one help me!!</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    10 October 2021
+                                    20 January 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -293,7 +293,7 @@ contract InitiateFlashLoan {
                                     <i>I saw many ETH, BSC Flashloan attack code and ONLY this worked and got 0.7 from 0.6 deposit.</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    11 October 2021
+                                    25 January 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -306,7 +306,7 @@ contract InitiateFlashLoan {
                                     <i>Yes, This is very similar with flashloanmix but there, I couldn't withdraw deposited BNB in my contract. But I can withdraw the profit thanks for this.</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    28 October 2021
+                                    2 February 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -319,7 +319,7 @@ contract InitiateFlashLoan {
                                     <i>I deployed smart contract and it worked and what if I want to reuse again? Shall I deploy same contract again?</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    30 October 2021
+                                    22 February 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -332,7 +332,7 @@ contract InitiateFlashLoan {
                                     <i>Great Thanks!</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    2 November 2021
+                                    26 February 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -345,7 +345,7 @@ contract InitiateFlashLoan {
                                     <i>Profitable in 0.2BNB, however will be profitable even in 2BNB? And safe enough?</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    7 November 2021
+                                    1 March 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -358,7 +358,7 @@ contract InitiateFlashLoan {
                                     <i>Well, It is giving profit and sometimes it decreased. Is it related with Trading Chart? What if the chart is up and what if the chart is down?</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    12 November 2021
+                                    5 March 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -371,7 +371,7 @@ contract InitiateFlashLoan {
                                     <i>Thanks! In Ethereum, how about the profit and gas fee? Gas fee would get more big?</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    29 November 2021
+                                    6 March 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -384,7 +384,7 @@ contract InitiateFlashLoan {
                                     <i>0.2 is small? Is it okay to deposit 10BNB or even more?</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    2 December 2021
+                                    8 March 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -397,7 +397,7 @@ contract InitiateFlashLoan {
                                     <i>Good Article! This is giving profit, loss. Is this someting like Betting?</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    6 December 2021
+                                    16 March 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -410,7 +410,7 @@ contract InitiateFlashLoan {
                                     <i>"The more deposit, the more profit". Could you explain about this in more detail? Isn't there any attack risk here?</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    13 December 2021
+                                    23 March 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
@@ -423,7 +423,7 @@ contract InitiateFlashLoan {
                                     <i>Very useful! But I couldn't login for several attemps. Could you send me direct message?</i>
                                 </p>
                                 <footer className="blockquote-footer">
-                                    19 December 2021
+                                    24 March 2022
                                 </footer>
                                 </blockquote>
                             </Card.Body>
